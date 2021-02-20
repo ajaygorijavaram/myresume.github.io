@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    < <link rel="stylesheet" href="portfolio\style.css"> 
+    <!-- <link rel="stylesheet" href="C:\Users\Ajay\Desktop\backupcss.css"> -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   </head>
+<body>
+    <header>
+        <div class="container">
+          <div class="row">  
+        <nav>
+               <button class="btn btn-primary"><a href="#me">About me</a></button> 
+              <button class="btn btn-primary"> <a href="#q">QUALIFICATION</a></button>
+              <button class="btn btn-primary"><a href="#s">skills</a> </button> 
+              <button class="btn btn-primary"><a href="#p">project</a></button>
+              <button class="btn btn-primary"><a href="#a">ACHIEVEMENTS</a></button>
+              <button class="btn btn-primary"> <a href="#c">Contact</a></button>
+              
+            </div>
+        </nav>
+    
+        <div class="me">
+            <div class="left" >
+                <img src="1610278994038 (1).jpg" alt="">
+            </div> 
+            <div class="right">
+               
+                <h2 class="single">I'M A FULL STACK DEVELOPER</h2>   
+                  
+                </div>
+                </div>
+                <div style="margin-top: 15%;margin-left: 60%;"> <button class="download">
+                    <a href="ajaykumar resume (3).pdf" style="border-top: 600px;" target="_blank">DOWNLOAD MY RESUME</a>
+                </button>
+           
+            <h1 class="name">G.AJAY KUMAR</h1>
+        </div>
+        <div style="margin-top: 400px; margin-right: 700px;">
+        < <a target="_blank" href="https://www.linkedin.com/in/ajay-kumar-gorijavaram">  <i class="fa fa-linkedin-square" style="font-size:48px;color:red;position:absolute; margin-top: -15%;  margin-left:1%; "></i></a> 
+        <a target="_blank" href="https://www.hackerrank.com/ajaygorijavaram"><i class="fab fa-hackerrank fa-3x" style="color:blue; position:absolute; margin-top: -15%;margin-left: 10%;"></i></a>
+    </div>
+    </div>
+</div>
+    </header>
+    <section id="me" class="aboutme">
+    <div> 
+        <div>
+        <img src="1610278994038 (1).jpg" alt="" class="my">
+        </div>
+        <div class="container"> 
+            <h1>About <span>Me</span></h1>
+            <h3>Hello,i'm Ajay kumar.</h3>
+            <p>I have completed my BE in ECE from sri venkateswara university college of engineering.
+        I have  good  knowledge in core java,front end and back end technologies.As a full stack developer iam looking forward to work in a company where i can utilize my skills for organizational growth and my personal growth</p>
+        </div>
+            </div>
+        </section>     
+    <section>
+        <div class="vid">
+           <video width="350" height="260" controls src="VID_20210213_233937.mp4"></video>
+        </div>
+    </section>
+    <section id="q" class="qualification">
+        <div class="containerq">
+            <div class="section title">
+                <h2><u>QUALIFICATION</u></h2><br>
+            </div>
+            <div class="btech">
+               <h3> <b>Bachelor Of Technology</b></h3>
+              <h5> <i>(Electronics and Communication Engineering)</i></h5>
+              <h5>2016-2020</h5>
+              <p>sri venkateswara university college of engineering</p>
+              <p>CGPA-7.19</p><br><br>
+            </div>
+            <div class="inter">
+                <h3> <b>INTERMEDIATE</b></h3>
+               <h5>2014-2016</h5>
+               <p>NRI junior college</p>
+               <p>percentage-95.2%</p><br><br>
+             </div>
+             <div class="tenth">
+                <h3> <b>s.s.c</b></h3>
+               <h5>2013-2014</h5>
+               <p>Rainbow high school</p>
+               <p>gpa-9.3</p><br><br>
+             </div>
+        </div>
+    </section>
+    <section id="p" class="project">
+        <div class="containerp">
+            <div class="section title">
+            <h2><u>PROJECT</u></h2><br>
+            </div>
+                <h3> <b>Project Title : Li-Fi Communication System</b></h3><br>
+                <!-- <div class="lif"> 
+                    <img src="lifi.jpg" alt=""><br>
+                </div> -->
+                <div class="proj">
+                    <!-- <p><i>(fig.li-fi communication system)</i></p><br> -->
+                    <h3><b>Definition</b></h3>
+                    This communication system is implemented by transmission of data through illumination <br><br>
+                        <h3><b>Spectrum used</b></h3>
+                    It uses visual light spectrum <br><br>
+                    <h3><b>Why better than wi-fi?</b></h3>
+                    Wi-fi communication system can be replaced by Li-fi communication system due to following reasons :  <br>        
+                       <br> <span><b>Speed:</b> </span>10 gb/sec can be achieved in li-fi <br><br>
+                       <b> Bandwidth:</b>Insufficiency of radio frequency bandwidth can be over comed by using visual spectrum band width<br><br>
+                    <b> Security:</b>Much safer than wifi as light cant pentrate through walls <br><br>
+                <b> low cost:</b>low implementation cost and low maintainence cost <br><br>
+            <br>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+   <section id="s" class="skills">
+    <div class="containers">
+        <div class="section title">
+        <h2><u>SKILLS</u></h2><br>
+        <span style="margin-right: 55%;"><b>JAVA</b></span>
+    <div class="w3-border"> 
+    <div class="w3-blue" style="height:24px;width:85%">85%</div>
+    </div><br>
+    <span style="margin-right: 55%;"><b>MY SQL</b></span>
+    <div class="w3-border"> 
+    <div class="w3-blue" style="height:24px;width:80%">80%</div>
+    </div><br>
+    <span style="margin-right: 55%;"><b>HTML</b></span>
+    <div class="w3-border"> 
+    <div class="w3-blue" style="height:24px;width:90%">90%</div>
+    </div><br>
+    <span style="margin-right: 55%;"><b>CSS</b></span>
+    <div class="w3-border"> 
+    <div class="w3-blue" style="height:24px;width:85%">85%</div>
+    </div><br>
+    <span style="margin-right: 53%;"><b>JAVA SCRIPT</b></span>
+    <div class="w3-border"> 
+    <div class="w3-blue" style="height:24px;width:70%">70%</div>
+    </div><br>
+   </section>
+   <section id="a" class="Acheivements">
+    <div class="containerA">
+        <div class="section title">
+            <h2><u>ACHIEVEMENTS</u></h2><br>
+        </div>
+        <div>
+           <h3> <b>I have attended in-plant training at ALL INDIA RADIO, TIRUPATI on AIR FM Transmitter.
+            </b></h3><br>
+        </div>
+        <div>
+            <h3> <b> I have completed an NPTEL course on embedded system design with ARM.</b></h3>
+           </div><br>
+         <div>
+            <h3> <b> I have attended an internship at BSNL on telecom technologies at TIRUPATI.</b></h3>
+         </div><br>
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+    
+   </section>
+   <div id="c" class="col-md-3 text-center" style="margin-left: 40%;margin-bottom: 5%;">
+    <span style="font-size: 30px;" ><u><b>Contact</b></u></span><br><br>
+    <ul class="list-unstyled mb-0">
+
+      <li>
+        <i class="fas fa-map-marker-alt fa-2x blue-text"></i>
+        <p>19/6/49b,stv nagar,Tirupathi,Andhra pradesh.</p><br>
+      </li>
+      <li>
+        <i class="fas fa-phone fa-2x mt-4 blue-text"></i>
+        <p>7780598098</p><br>
+      </li>
+      <li>
+        <i class="fas fa-envelope fa-2x mt-4 blue-text"></i>
+        <p class="mb-0">ajaygorijavaram@gmail.com</p><br>
+      </li>
+    </ul>
+  </div>
+  
+   <script>
+    var mybutton = document.getElementById("myBtn");
+    
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    } 
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <footer style="background-color: black;height: 50px;">
+        <p style="color: white;text-align: center;">@ajaygorijavaram@gmail.com</p>
+    </footer>
+  </body>
+</html>
